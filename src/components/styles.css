@@ -1,0 +1,74 @@
+*{font-family: Garamond;}
+.NavBar{background: #666666 ;/*nav bar and related*/
+	float: left;
+	display: block;
+	left:0%;
+	top:0%;
+	padding:1em;
+	height: 100vh;
+	width: 10em;
+
+	border-radius:10px;
+	border-width: 500px;
+	border:groove;
+}
+.NavButtons{background:#7F7F7F;
+	padding: 1.5em 5px;
+	margin: 5px;
+	text-align: center;
+	border: 15px solid #6E6E6E ;
+}.NavLogo > img{width: 150px;
+border-radius:100px;}
+.NavButtons > a{color: inherit;
+    text-decoration: none;}
+.NavButtons:hover{
+	background:#B0B0B0;
+}.MainButton{font-size: 16px;}
+
+.Dashboard{display: flex;
+	flex-direction: column;
+	background-color: tomato;
+	margin:0px 3em 3em 15em;
+	align-items: center;
+	justify-content: center;
+}.Dashboard > .element{	
+	text-align: center;
+	justify-content: center;
+	font-size: 2em;}  
+
+
+
+
+.Tickets{display: flex;/*main and related*/
+	flex-direction: column;
+	background: #5087D8 ;
+	float: top;
+	margin: 0px 10px}
+.TicketsButton{font-size: 17px;
+	margin :20px;
+}
+
+
+
+.AddTickets{background: #54F2E3 ;
+	border:groove;
+	border-radius:5px;
+	padding:20px;
+	margin: 10px 0px}
+.AddTickets > .element{margin-right: 10px;width:140px;height:26px;}
+.AddTickets > .AddTicketButton{font-size: 17px;
+	margin: 0px 0px 0px 10px;
+	padding: 10px;
+	size: 20px;
+}
+
+.Confirmation{display: flex;/*main and related*/
+	background: #5087D8 ;
+	flex-direction: column;
+	padding: 0px 4em 0px 4em;
+	width: 60em;
+	height: 41.6em;
+	align-items: center;
+	justify-content: center;
+}
+.ConfirmationElement{size:50em;}
